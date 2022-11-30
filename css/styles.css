@@ -211,7 +211,6 @@ width: 100%;
     border: none;
     margin-left: 15px;
     margin-bottom: 15px;
-
 }
 
 
@@ -298,10 +297,9 @@ width: 100%;
 }
 
 
+
+
 /*our-team*/
-
-
-
 .section-team img{
 width: 100%;
 }
@@ -310,6 +308,10 @@ width: 100%;
 .section-team .john-info{
     background-color: #ffe6ac;
     margin-bottom: 15px;
+}
+
+.section-team h4{
+    border-bottom: 1px solid;
 }
 
 /*BOB*/
@@ -364,7 +366,9 @@ table {
     border-collapse: collapse;
   }
 
-
+iframe{
+    width: 100%;
+}
 
 
 
