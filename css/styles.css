@@ -1,0 +1,335 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*h1- line height = 106px
+  h2 - line height = 
+  p - line height 21px*/
+
+
+  h1{
+    font-size: 71px;
+    font-family: sans-serif;
+    font-weight: bold;
+	line-height: 106px;
+    margin-bottom: 18px;
+}
+
+h2{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+h3{
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+h4{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+
+p{
+    margin-bottom: 1em;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+  body{
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+    padding: 1em;
+}
+
+
+  .container{
+    padding: 14px;
+    }
+
+
+  .logo{
+    background: #c78b07;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav{
+    background-color: #222222;
+}
+
+nav a:link,
+nav a:visited{
+    font-size: 18px;
+    color: #c78b07;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+nav .current a:link,
+nav .current a:visited {
+    color: black;
+    background-color: #c78b07;
+}
+
+
+.header-welcome{
+    background-image: url(../images/images/main-banner.jpg);
+    background-size: cover;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+.header-welcome .container{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.header-welcome button{
+    background-color: #c78b07;
+    border: none;
+    width: 260px;
+    height: 95px;
+    font-size: 21px;
+}
+
+
+/*About-about*/
+
+.section-about{
+    display: block;
+    background-color: #ffe6ac;
+}
+
+
+/*services*/
+
+.section-services img{
+display: block;
+width: 100%;
+}
+
+/*digital-transformation*/
+.section-services .digital-transformation{
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+}
+
+.digital-transformation button{
+    width: 224px;
+    height: 95px;
+    font-size: 21px;
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+/*Marketing*/
+.section-services .marketing{
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+}
+
+.marketing button{
+    width: 224px;
+    height: 95px;
+    font-size: 21px;
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+/*Video production*/
+
+.section-services .video-production{
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+}
+
+.video-production button{
+    width: 224px;
+    height: 95px;
+    font-size: 21px;
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+/*web development*/
+
+.section-services .web-development{
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+}
+
+.web-development button{
+    width: 224px;
+    height: 95px;
+    font-size: 21px;
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+/*print*/
+
+.section-services .print{
+    background-color: #ffe6ac;
+    margin-bottom: 15px;
+}
+
+.print button{
+    width: 224px;
+    height: 95px;
+    font-size: 21px;
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*our-vision*/
+
+.section-vision{
+    background-image: url(../images/images/vision.jpg);
+    background-size: cover;
+    width: 100%;
+    padding-top: 68px;
+    padding-bottom: 68px;
+}
+
+.section-vision .container{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+.section-vision button{
+    background-color: #0e2c48;
+    width: 215px;
+    height: 95px;
+    font-size: 21px;
+    color: #ffffff;
+    border-color: #b68310;
+}
+
+.section-vision img{
+padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+/*desktop
+@media screen and (min-width:1168px) {
+    .container{
+        width: 1140px;
+        margin: 0 auto;
+    }
+    
+}
+
+
+
+
+
+
+
+.header-welcome button{
+    background-color: #c78b07;
+    border: none;
+    width: 260px;
+    height: 95px;
+    font-size: 21px;
+}
+
+
+
+
+*/
