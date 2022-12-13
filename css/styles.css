@@ -102,7 +102,6 @@ img{
     font-size: 14px;
     line-height: 1.5;
     color: black;
-    padding: 1em;
 }
 
 
@@ -117,9 +116,35 @@ img{
     padding-bottom: 20px;
 }
 
+
+.container .home-butt{
+    color: #000000;
+}
+
+ul{
+    margin-top: -45px;
+}
+
+
+.search-one{
+    width: 92%;
+    height: 42px;
+    border-radius: 1px;
+    font-size: 18px;
+}
+
 nav{
     background-color: #222222;
 }
+
+nav button{
+    background-color: #222222;
+    margin-left: 94%;
+    padding:2%;
+    color: #c78b07;
+
+}
+
 
 nav a:link,
 nav a:visited{
@@ -144,6 +169,8 @@ nav .current a:visited {
     background-size: cover;
     padding-top: 68px;
     padding-bottom: 68px;
+    margin-left: -14px;
+    margin-right: -14px;
 }
 
 .header-welcome .container{
@@ -151,6 +178,8 @@ nav .current a:visited {
     color: white;
     padding-top: 50px;
     padding-bottom: 50px;
+    
+    
 }
 
 .header-welcome button{
@@ -167,10 +196,26 @@ nav .current a:visited {
 .section-about{
     display: block;
     background-color: #ffe6ac;
+    margin-left: -14px;
+    margin-right: -14px;
 }
 
 
 /*services*/
+
+.section-services h2{
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+.section-services h3{
+    margin-top: 28px;
+    margin-left: 14px;
+}
+
+.section-services p{
+    margin-left: 14px;
+}
 
 .section-services img{
 display: block;
@@ -180,7 +225,7 @@ width: 100%;
 /*digital-transformation*/
 .section-services .digital-transformation{
     background-color: #ffe6ac;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .digital-transformation button{
@@ -190,8 +235,8 @@ width: 100%;
     background-color: #222222;
     color: #ffffff;
     border: none;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-left: 14px;
+    margin-bottom: 14px;
 
 }
 
@@ -199,7 +244,7 @@ width: 100%;
 /*Marketing*/
 .section-services .marketing{
     background-color: #ffe6ac;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .marketing button{
@@ -209,8 +254,8 @@ width: 100%;
     background-color: #222222;
     color: #ffffff;
     border: none;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-left: 14px;
+    margin-bottom: 14px;
 }
 
 
@@ -218,7 +263,7 @@ width: 100%;
 
 .section-services .video-production{
     background-color: #ffe6ac;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .video-production button{
@@ -228,15 +273,15 @@ width: 100%;
     background-color: #222222;
     color: #ffffff;
     border: none;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-left: 14px;
+    margin-bottom: 14px;
 }
 
 /*web development*/
 
 .section-services .web-development{
     background-color: #ffe6ac;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .web-development button{
@@ -246,15 +291,15 @@ width: 100%;
     background-color: #222222;
     color: #ffffff;
     border: none;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-left: 14px;
+    margin-bottom: 14px;
 }
 
 /*print*/
 
 .section-services .print{
     background-color: #ffe6ac;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .print button{
@@ -264,8 +309,8 @@ width: 100%;
     background-color: #222222;
     color: #ffffff;
     border: none;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-left: 14px;
+    margin-bottom: 14px;
 }
 
 
@@ -274,16 +319,17 @@ width: 100%;
 .section-vision{
     background-image: url(../images/images/vision.jpg);
     background-size: cover;
+    background-position: center;
     width: 100%;
-    padding-top: 68px;
-    padding-bottom: 68px;
+    padding: 14px;
+    margin-left: -14px;
 }
 
 
 
 .section-vision .container{
     color: white;
-    padding-top: 50px;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
 
@@ -294,34 +340,55 @@ width: 100%;
     font-size: 21px;
     color: #ffffff;
     border-color: #b68310;
+    margin-bottom: -5px;
+    margin-left: -14px;
 }
 
 
 
 
 /*our-team*/
+
+
+.section-team h2{
+    margin-top: 14px;
+    margin-bottom: -5px;
+}
+
 .section-team img{
 width: 100%;
 }
 
 /*JOHN*/
+
 .section-team .john-info{
+    padding: 14px;
     background-color: #ffe6ac;
-    margin-bottom: 15px;
+    margin-top:-6px;
 }
 
 .section-team h4{
-    border-bottom: 1px solid;
+    border-bottom: 2px solid #c68a05;
 }
 
 /*BOB*/
+.section-team img{
+    margin-top: 14px;
+}
+
 .section-team .bob-info{
+    padding: 14px;
     background-color: #ffe6ac;
-    margin-bottom: 15px;
+    margin-top: -6px;
 }
 
 
 /*section-contact*/
+
+
+.section-contact h3{
+    margin-bottom: 5px;
+}
 
 .section-contact input{
     width: 100%;
@@ -331,6 +398,7 @@ width: 100%;
 
 .section-contact .message{
     height: 150px;
+    
 }
 
 .section-contact button{
@@ -338,68 +406,177 @@ width: 100%;
     height: 30px;
     border: none;
     color: #b68310;
-    background-color:#222222;
+    background-color:#000000;
     font-size: 21px;
+}
+
+
+/*Hours of operation*/
+.section-contact .hours{
+    margin-top: 20px;
 }
 
 tr:nth-child(1) {
     background-color: #ffe6ac;
     height: 50px;
-    text-align: center;
   }
 
   tr:nth-child(2) {
     height: 50px;
-    text-align: start;
   }
 
   tr:nth-child(3) {
     height: 50px;
   }
-  
-table, td, th {
+
+  td, th {
     border: 1px solid;
+    padding: 14px;
   }
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    margin-top: -14px;
+    margin-bottom: 14px;
   }
 
 iframe{
     width: 100%;
+    margin-top: -14px;
 }
 
 
+footer{
+    background-color: #222222;
+    width: 100%;
+    color: #b68310;
+    margin-left: -14px;
+    padding-right: 28px;
+    margin-bottom: -14px;
+}
 
 
+footer p{margin-left: 25px;
+}
 
+footer .copyr{
+    margin-left: 25px;
+}
 
-
-/*desktop
-@media screen and (min-width:1168px) {
+@media screen and (min-width:760px) {
     .container{
-        width: 1140px;
+        width: 706px;
         margin: 0 auto;
     }
-    
+}
+
+@media screen and (min-width:1200px) {
+    .container{
+        width: 1168px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: -25px;
+}
+
+nav ul{
+    display: flex;
+    width: auto;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav a:link{
+    color: #c78b07;
+    padding: 19px 20px;
+}
+
+/*SERVICE*/
+
+
+
+
+.section-services .container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:1fr 1fr;
+column-gap: 14px;
+height: auto;
+}
+
+.section-contact .topservice{
+    grid-column: 1 / 3;
+    grid-row: 1;
+
+
+}
+
+.section-contact .bottomservice{
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+/*team*/
+
+
+.section-team .container{
+    display: grid;
+    height: auto;
+
+}
+
+.john-img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.john-info {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.bob-img{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.bob-info{
+grid-column-start: 1;
+grid-row-start: 3;
+}
+
+/*contact*/
+
+.funky-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 14px;
+}
+
+.funky-div .form{
+    grid-row: 1/2;
+    grid-row: 1;
+}
+
+.funky-div .map{
+    grid-column: 2 / 3;
+    grid-row: 1 ;
+}
+
+iframe{
+    width:100%;
+}
+
+.funky-div .hours{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
 }
 
 
 
-
-
-
-
-.header-welcome button{
-    background-color: #c78b07;
-    border: none;
-    width: 260px;
-    height: 95px;
-    font-size: 21px;
-}
-
-
-
-
-*/
