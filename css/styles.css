@@ -47,10 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/*h1- line height = 106px
-  h2 - line height = 
-  p - line height 21px*/
-
+/*Headings & P*/
 
   h1{
     font-size: 71px;
@@ -125,14 +122,14 @@ ul{
     margin-top: -45px;
 }
 
-
+/*header / search*/
 .search-one{
     width: 92%;
     height: 42px;
     border-radius: 1px;
     font-size: 18px;
 }
-
+/*nav*/
 nav{
     background-color: #222222;
 }
@@ -454,7 +451,7 @@ footer{
     padding-right: 28px;
     margin-bottom: -14px;
 }
-
+/*footer*/
 
 footer p{margin-left: 25px;
 }
@@ -463,6 +460,8 @@ footer .copyr{
     margin-left: 25px;
 }
 
+
+/*Desktop*/
 @media screen and (min-width:760px) {
     .container{
         width: 706px;
@@ -476,7 +475,7 @@ footer .copyr{
         margin: 0 auto;
         padding: 0 16px;
     }
-
+ /*nav*/
 nav .container{
     display: flex;
     justify-content: space-between;
@@ -539,9 +538,8 @@ column-gap: 14px;
 
 .section-team .container{
     display: grid;
-
     grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows:1fr 1fr;
+    grid-template-rows:1fr 1fr;
 
 }
 
@@ -587,6 +585,3 @@ iframe{
 }
 
 }
-
-
-
