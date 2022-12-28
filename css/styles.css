@@ -380,6 +380,7 @@ width: 100%;
 }
 
 
+
 /*section-contact*/
 
 
@@ -476,6 +477,8 @@ footer .copyr{
         padding: 0 16px;
     }
  /*nav*/
+
+ 
 nav .container{
     display: flex;
     justify-content: space-between;
@@ -495,6 +498,8 @@ nav a:link{
     color: #c78b07;
     padding: 19px 20px;
 }
+
+
 
 /*SERVICE*/
 
